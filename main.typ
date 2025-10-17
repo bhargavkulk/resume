@@ -22,22 +22,22 @@
 == Education
 
 #edu(
-  institution: "University of Utah",
-  location: "UT",
-  dates: dates-helper(start-date: "2023", end-date: "Present"),
-  degree: "PhD",
-  // Uncomment the line below if you want edu formatting to be consistent with everything else
-  // consistent: true
+    institution: "University of Utah",
+    dates: dates-helper(start-date: "2023", end-date: "Present"),
+    degree: "PhD",
+    // Uncomment the line below if you want edu formatting to be consistent with everything else
+    consistent: true
 )
 - Advised by #link("pavpanchekha.com")[Prof. Pavel Panchekha]
 - Cumulative GPA: 3.8\/4.0; Relevant Courses: PL, verification, compilers,
   computer architecture
 - TA for Compilers, Computer Organization
+
 #edu(
     institution: "BITS Pilani",
-    location: "India",
     dates: dates-helper(start-date: "2019", end-date: "2023"),
     degree: "Bachelors in Computer Science",
+    consistent: true
 )
 - Cumulative GPA: 8.9\/10.0; Merit scholarship holder
 - TA for OS, compilers, networks, architecture
@@ -57,34 +57,32 @@
 == Research Experience
 
 #work(
-  title: "Research Assistant",
-  location: "Salt Lake City, UT",
-  company: "University of Utah",
-  dates: dates-helper(start-date: "2023", end-date: "Present"),
+    title: "Research Assistant",
+    location: dates-helper(start-date: "2023", end-date: "Present"),
+    company: "University of Utah",
 )
-- Currently working on building a verified optimizer for the *Skia* vector
-  graphics engine that drives the rendering of the *Chrome* web browser.
-    - To verify optimizing rewrites, formalized the semantics of Skia's
-      operations using the *Lean* interactive theorem prover
-- Previously worked on adapting techniques from floating-point static analysis
-  to build an accurate and performant floating-point debugging tool.
+- Currently building a verified optimizer for the *Skia* vector graphics engine
+  that powers *Chrome* rendering.
+    - Formalized Skia operation semantics in the *Lean* theorem prover to verify
+      optimizing rewrites.
+- Previously adapted floating-point static analysis techniques to build an
+  accurate floating-point debugger.
+
 #work(
-  title: "Research Intern @ NASA Langley Formal Methods Group",
-  location: "Langley, VA",
-  company: "NASA",
-  dates: "2024",
+    title: "Research Intern",
+    location: "2024",
+    company: "NASA Langley Formal Methods Group",
 )
 - Worked on generating *proof certificates* for the *PVS* automated theorem prover
-  to verify *Herbie's* (a floating-point superoptimizer) *accuracy-aware
+  to verify *Herbie\'s* (a floating-point superoptimizer) *accuracy-aware
   optimizations*
+
 #work(
-  title: "Research Intern",
-  location: "India",
-  company: "CMI",
-  dates: dates-helper(start-date: "Jun 2020", end-date: "May 2023"),
+    title: "Summer Research",
+    location: dates-helper(start-date: "Jun 2020", end-date: "May 2023"),
+    company: "CMI",
 )
-- Worked with Prof. SP Suresh and Prof. Anup Basil Mathew \@ Chennai
-  Mathematical Institute
+- Worked with Prof. SP Suresh(CMI) and Prof. Anup Basil Mathe(BITS Pilani)
 - Formalized basic DFA/NFA constructions in Coq/Rocq
 - Some initial work adapted into undergraduate Discrete Structures course
 
